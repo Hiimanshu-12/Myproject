@@ -2,15 +2,16 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color:black;
+  background-color:white;
 }
 
 header {
   background-image: url('images/header-bg.jpg');
   background-size: cover;
   background-position: center;
-  color: white;
-  padding: 60px 20px;
+  color: red;
+  background-color:midnightblue;
+  padding:20px 10px;
   text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -25,13 +26,17 @@ p {
 
 nav {
   text-align: center;
-  margin-top: 20px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding:12px 8px;
+  color:grey;
+  background-color: #F5F5F5;
 }
 
 nav a {
-  margin: 0 8px;
+  margin: 0 5px;
   text-decoration: none;
-  color:green;
+  color:grey;
   font-weight: bold;
 }
 
@@ -40,19 +45,19 @@ nav a:hover {
 }
 
 section {
-  padding: 20px;
+  padding:40px;
   background-color: white;
   max-width: 1000px;
   margin: 20px auto;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 section img {
   max-width: 100%;
   height: auto;
-  margin-top: 20px;
-  border-radius: 8px;
+  margin-top: 5px;
+  border-radius: 2px;
 }
 
 .player {
@@ -68,8 +73,14 @@ section img {
 }
 
 footer {
-  text-align: center;
-  padding: 0px;
-  background-color: purple;
+  text-align:center ;
+  padding:8px 5px;
+  background-color:#28282B;
   color: white;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
+h2{
+  color:indigo ;
+}
+  
